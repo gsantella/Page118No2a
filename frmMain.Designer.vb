@@ -37,10 +37,12 @@ Partial Class frmMain
         '
         'lstAccountSummary
         '
+        Me.lstAccountSummary.Font = New System.Drawing.Font("Courier New", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lstAccountSummary.FormattingEnabled = True
+        Me.lstAccountSummary.ItemHeight = 16
         Me.lstAccountSummary.Location = New System.Drawing.Point(13, 109)
         Me.lstAccountSummary.Name = "lstAccountSummary"
-        Me.lstAccountSummary.Size = New System.Drawing.Size(580, 147)
+        Me.lstAccountSummary.Size = New System.Drawing.Size(580, 132)
         Me.lstAccountSummary.TabIndex = 1
         '
         'frmMain
